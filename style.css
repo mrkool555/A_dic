@@ -1,0 +1,87 @@
+h1{
+    font-size: 50px;
+    color:pink;
+    border-bottom: 1px solid gray;
+}
+img.relative { 
+  position: relative;
+  left: 20px;
+  top: 00px;
+}
+
+.input {
+    color:brown;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrapper{
+   display: grid;
+   grid-template-columns: 250px 250px;
+   grid-template-rows: 50px ;
+   vertical-align: middle;
+}
+.div1 {
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+  padding-top: 5px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  }
+.div2 {
+  color:brown;
+  background-color: yellowgreen;
+  vertical-align: middle;
+  font-size: 100px;
+}
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 50px 100px 100px;
+  vertical-align: middle;
+}
+.div3 {
+    background-color: white;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.div4 {
+  color:yellowgreen;
+  background-color: white;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.div5 {
+  color:green;
+  background-color: white;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.footer { 
+  display: grid;
+  grid-template-columns: 100px 150px 250px;
+  border-top: 1px solid teal;
+  border-bottom: 1px solid teal;
+  font-kerning: 3px;
+  background-color: rgb(255, 255, 255); 
+  text-align: right;
+}
+
+p {
+  font-weight: normal;
+  border-right: 1px solid coral;}
+
+li {
+  margin-left: 10px;
+font-weight: bold;
+}
+
